@@ -1,0 +1,104 @@
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    /* border-color: #ffffff; */
+    border-radius: 0px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+body {
+    background-image: url('/images/paper.jpg');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.footer {
+    background-color: rgb(103, 105, 107);
+}
+.bottom-half {
+    
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e3e3e3;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.67);
+}
+
+.paper {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.67);
+}
+
+.h1, h1 {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.67);
+}
+
+.h2, h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.67);
+
+}
+
+.h3, h3 {
+    font-size: 24px;
+    font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.h4, h4 {
+    
+        font-weight: 800;
+        font-family: 'Open Sans', sans-serif;
+}
+
+.row {
+    
+        margin-top: 40px;
+}
+
+.darkfont {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #404143;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    /* border-left: 2px solid rgba(255, 255, 255, 0.75); */
+    /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    /* padding: 40px; */
+}
